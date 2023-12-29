@@ -19,7 +19,7 @@ struct ContentView: View {
                 
                     HStack (spacing: 15) {
                         WeatherDayView(dayOfWeek: "TUE",
-                                       imageName: "cloud.sun.fill",
+                                       imageName: "sun.max.fill",
                                        temperature: 32)
                         WeatherDayView(dayOfWeek: "WED",
                                        imageName: "cloud.sun.fill",
